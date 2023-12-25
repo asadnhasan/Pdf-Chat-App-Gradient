@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: gradientai
+Version: 1.4.0
+Summary: Gradient AI API
+Home-page: https://github.com/Preemo-Inc/gradientai-python-sdk
+License: MIT
+Keywords: Gradient AI API,ai,artificial intelligence,fine-tuning,large language model,llm,gradient,gradient ai
+Author: Gradient AI Support
+Author-email: support@gradient.ai
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aenum (>=3.1.11)
+Requires-Dist: pydantic (>=1.10.5,<2.0.0)
+Requires-Dist: python-dateutil (>=2.8.2)
+Requires-Dist: urllib3 (>=1.25.3)
+Project-URL: Repository, https://github.com/Preemo-Inc/gradientai-python-sdk
+Description-Content-Type: text/markdown
+
+[link to main docs](https://docs.gradient.ai/docs/sdk-quickstart)
+
+To create an instance of `Gradient` you can either provide an access token and workspace_id in the constructor call or allow the constructor to default to using the two environment variables
+
+- GRADIENT_ACCESS_TOKEN
+- GRADIENT_WORKSPACE_ID
+
