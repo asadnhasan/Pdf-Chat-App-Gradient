@@ -6,7 +6,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/asadnhasan/Pdf-Chat-App-Gradient)](https://github.com/asadnhasan/Pdf-Chat-App-Gradient/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/asadnhasan/Pdf-Chat-App-Gradient)](https://github.com/asadnhasan/Pdf-Chat-App-Gradient/network)
 [![GitHub issues](https://img.shields.io/github/issues/asadnhasan/Pdf-Chat-App-Gradient)](https://github.com/asadnhasan/Pdf-Chat-App-Gradient/issues)
-[![Discord](https://img.shields.io/discord/your-server-ID?color=%237289DA&label=Discord&logo=discord&logoColor=white&style=flat-square)](https://discord.gg/EytJtd4dW)
+[![Discord](https://img.shields.io/discord/your-server-ID?color=%237289DA&label=Discord&logo=discord&logoColor=white&style=flat-square)](https://discord.gg/EytJtd4dW4)
 [![License](https://img.shields.io/github/license/asadnhasan/Pdf-Chat-App-Gradient)](LICENSE)
 
 Welcome to the PDF Chat Application, where PDFs meet interactivity! This Streamlit-powered app lets you upload any PDF and chat away, asking any questions you have about the document's content. Dive into the magic of LlamaIndex and GradientAI and experience a new era of document interaction.
