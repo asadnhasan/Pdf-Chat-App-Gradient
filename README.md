@@ -1,17 +1,17 @@
-![PDF Chat Application Logo](images/Imagetop.png)
 <div align="center">
   <h1>PDF Chat Application with GradientAI Integration 📚✨</h1>
-  <img src="images/Imagetop.png" alt="PDF Chat Application Logo">
+  <img src="images/Imagetop.png" alt="PDF Chat Application Logo" width="300">
 </div>
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/pdf-chat-app)](https://github.com/yourusername/pdf-chat-app/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/pdf-chat-app)](https://github.com/yourusername/pdf-chat-app/network)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/pdf-chat-app)](https://github.com/yourusername/pdf-chat-app/issues)
-[![License](https://img.shields.io/github/license/yourusername/pdf-chat-app)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/asadnhasan/Pdf-Chat-App-Gradient)](https://github.com/asadnhasan/Pdf-Chat-App-Gradient/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/asadnhasan/Pdf-Chat-App-Gradient)](https://github.com/asadnhasan/Pdf-Chat-App-Gradient/network)
+[![GitHub issues](https://img.shields.io/github/issues/asadnhasan/Pdf-Chat-App-Gradient)](https://github.com/asadnhasan/Pdf-Chat-App-Gradient/issues)
+[![Discord](https://img.shields.io/discord/your-server-ID?color=%237289DA&label=Discord&logo=discord&logoColor=white&style=flat-square)](https://discord.gg/EytJtd4dW)
+[![License](https://img.shields.io/github/license/asadnhasan/Pdf-Chat-App-Gradient)](LICENSE)
 
 Welcome to the PDF Chat Application, where PDFs meet interactivity! This Streamlit-powered app lets you upload any PDF and chat away, asking any questions you have about the document's content. Dive into the magic of LlamaIndex and GradientAI and experience a new era of document interaction.
 
-![PDF Chat Application UI](link-to-ui-screenshot.png)
+![PDF Chat Application UI](images/screenshot.png)
 
 ## 🌟 Features
 
@@ -25,16 +25,16 @@ Welcome to the PDF Chat Application, where PDFs meet interactivity! This Streaml
 Want to get it running on your machine? It's as simple as:
 
 ```bash
-git clone https://github.com/yourusername/pdf-chat-app.git
-cd pdf-chat-app
+git clone https://github.com/asadnhasan/Pdf-Chat-App-Gradient
+cd asadnhasan/Pdf-Chat-App-Gradient
 pip install -r requirements.txt
-
+```
 
 🚀 Usage
 To launch the app, spin it up with:
-
+```
 streamlit run app.py
-
+```
 Visit http://localhost:8501 in your browser and start chatting with your PDF!
 
 💡 How to Contribute
@@ -56,7 +56,8 @@ Hey there! I'm **Syed Asad**, the creator of this PDF Chat Application. If you'r
 
 - 🌟 **LinkedIn**: [Syed Asad](https://www.linkedin.com/in/syed-asad-76815246/) - Let's connect professionally and expand our networks.
 - 📧 **Email**: [asadnhasan@gmail.com](mailto:asadnhasan@gmail.com) - For inquiries, collaborations, or just a chat about technology and innovation.
-- 🚀 **GitHub**: Follow my journey in open-source - [Syed's GitHub](https://github.com/yourusername)
+- 🚀 **GitHub**: Follow my journey in open-source - [Syed's GitHub](https://github.com/asadnhasan)
+- 💬 **Discord**: [Join our Discord Channel](https://discord.gg/EytJtd4dW4)
 
 Feel free to reach out for discussions, collaborations, or just to say hi. I'm always open to new ideas and opportunities!
 
