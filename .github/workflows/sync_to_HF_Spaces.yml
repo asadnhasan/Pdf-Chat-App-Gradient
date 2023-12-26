@@ -26,4 +26,4 @@ jobs:
       env: 
         HF_TOKEN: ${{ secrets.HF_TOKEN }}
       run: |
-        git push --force https://asadnhasan:$HF_TOKEN@huggingface.co/spaces/asadnhasan/PDF-Chat-using-AI main
+        git push --force https://asadnhasan:^&+6UG+6!Q(Euf/@huggingface.co/spaces/asadnhasan/PDF-Chat-using-AI main
