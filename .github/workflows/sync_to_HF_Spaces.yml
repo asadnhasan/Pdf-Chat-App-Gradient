@@ -1,21 +1,29 @@
-name: Sync to Hugging Face hub
+name: Sync to Hugging Face Hub 
 
 on:
   push:
     branches: [main]
-  workflow_dispatch:
+  workflow_dispatch:   
 
 jobs:
+
   sync-to-hub:
+
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-          lfs: true
-      - name: Fetch and merge remote changes
-        run: git fetch origin && git merge origin/main
-      - name: Push to hub
-        env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://asadnhasan:$HF_TOKEN@huggingface.co/spaces/asadnhasan/PDF-Chat-using-AI main:main
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0  
+        lfs: true
+
+    - name: Fetch origin and rebase  
+      run: |
+        git fetch origin  
+        git rebase origin/main
+
+    - name: Force push to Hugging Face Hub
+      env: 
+        HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      run: |
+        git push --force https://asadnhasan:$HF_TOKEN@huggingface.co/spaces/asadnhasan/PDF-Chat-using-AI main
