@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://asadnhasan:$HF_TOKEN@huggingface.co/spaces/asadnhasan/PDF-Chat-using-AI main
+        run: git push https://asadnhasan:$HF_TOKEN@huggingface.co/spaces/asadnhasanE/PDF-Chat-using-AI main
