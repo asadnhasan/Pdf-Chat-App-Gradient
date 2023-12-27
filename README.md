@@ -22,6 +22,8 @@ Welcome to the PDF Chat Application, where PDFs meet interactivity! This Streaml
 
 🚀 Check out the demo of my PDF Chat application on Streamlit Cloud: https://gradient-pdf-chat.streamlit.app/
 
+📊 Explore the code interactively on Google Colab: https://t.ly/SZfo3
+
 ## ⚙️ Installation
 
 Want to get it running on your machine? It's as simple as:
