@@ -20,6 +20,8 @@ Welcome to the PDF Chat Application, where PDFs meet interactivity! This Streaml
 - **Cutting-edge AI**: Utilizing GradientAI's NLP to understand and process your queries.
 - **Sleek UI**: Built with Streamlit for an intuitive user experience.
 
+🚀 Check out the demo of my PDF Chat application on Streamlit Cloud: https://gradient-pdf-chat.streamlit.app/
+
 ## ⚙️ Installation
 
 Want to get it running on your machine? It's as simple as:
