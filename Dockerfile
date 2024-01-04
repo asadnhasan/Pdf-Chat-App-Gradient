@@ -1,0 +1,18 @@
+FROM python:3.8-slim-buster
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+COPY app.py .env ./
+COPY secrets /app/secrets
+
+EXPOSE 8501
+
+ENV GRADIENT_ACCESS_TOKEN=$GRADIENT_ACCESS_TOKEN
+ENV GRADIENT_WORKSPACE_ID=$GRADIENT_WORKSPACE_ID
+ENV CASSANDRA_CLIENT_ID=$CASSANDRA_CLIENT_ID
+ENV CASSANDRA_CLIENT_SECRET=$CASSANDRA_CLIENT_SECRET
+
+CMD streamlit run app.py
