@@ -24,8 +24,6 @@ Welcome to the PDF Chat Application, where PDFs meet interactivity! This Streaml
 
 📊 Explore the code interactively on Google Colab: https://t.ly/SZfo3
 
-[![Docker Image](https://img.shields.io/docker/pulls/asadnhasan/pdfchat-gradient)](https://hub.docker.com/repository/docker/asadnhasan/pdfchat-gradient/general)
-
 ### PDFChat Gradient
 
 Welcome to PDFChat, a powerful tool for working with PDFs! 🚀 This Docker image is available on Docker Hub, making it easy to deploy and integrate with your projects. Check it out on [Docker Hub](https://hub.docker.com/repository/docker/asadnhasan/pdfchat-gradient/general) and get started with PDFChat Gradient!
